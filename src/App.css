@@ -1,0 +1,58 @@
+.header{
+    margin-top: 50px;
+    padding: 10px;
+    color: rgb(81, 225, 109);
+}
+.inputTask{
+    padding: 3px;
+    margin: 5px;
+    width: 300px;
+    border-color: rgb(81, 225, 109);
+}
+.inputTask:hover {
+    box-shadow: 2px 5px 5px 4px rgb(81, 225, 109);
+    
+}
+.btn{
+    background-color: rgb(5, 181, 93);
+    width: 200px;
+}
+.status-filter{
+    font-size:larger;
+
+    select{
+        background-color: rgb(244, 131, 225);
+        padding: 2px;
+        border: 3px;
+
+    }
+}
+.todo-card{
+    box-shadow: 0px 3px 5px rgb(114, 201, 183);
+    display: flex;
+    background-color: rgb(191, 245, 217);
+    width: 300px;
+    margin-top: 20px;
+    padding: 30px;
+    
+}
+.status-list{
+    select{
+        background-color: rgb(244, 131, 225);
+    }
+}
+.btn-primary{
+background-color:rgb(5, 181, 93); 
+padding: 4px;
+margin: 10px;
+border-radius: 5px;
+width: 100px;
+
+}
+.btn-secondory{
+    background-color:rgb(228, 115, 49);
+    padding: 4px;
+    border-radius: 5px;
+    width: 100px;
+    margin: 10px;
+}
